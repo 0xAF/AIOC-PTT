@@ -1,7 +1,7 @@
 # AIOC-PTT
 AIOC (All-In-One-Cable) PTT control via DTR/RTS Serial interface.
 
-This is simple tool to allow you control the PTT of hendheld radio via AIOC (All-In-One-Cable).
+This is simple tool to allow you control the PTT of hendheld radio via [AIOC (All-In-One-Cable)](https://github.com/skuep/AIOC).
 This tool uses the DTR/RTS on the serial interface.
 
 Since the PTT cannot be held after the program finish execution, you will have to pass a `<command>` as argument, to be executed while the PTT is ON.
